@@ -7,7 +7,7 @@ const subtract = function(a, b) {
 };
 
 const sum = function(arr) {
-    let a = ...arr;
+    let a = [...arr];
     return a.reduce((a, b) => a+b);
 };
 
@@ -24,7 +24,7 @@ const factorial = function(n) {
         return 1;
     } else {
         return n*factorial(n-1);
-    }
+    };
 };
 
 // Do not edit below this line
